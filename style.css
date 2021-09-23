@@ -1,0 +1,220 @@
+.our-pricing {
+    background-color:#f6f9fc ;
+}
+.our-pricing .container {}
+.our-pricing .container .row .col-md-6 .plan-text{}
+.our-pricing .container .row .col-md-6 .plan-text h6{
+    color: #3e68eb;
+    font-size: 18px;
+}
+.our-pricing .container .row .col-md-6 .plan-text h2{
+    position: relative;
+    font-weight: 501;
+    padding: 15px 0px; 
+    font-weight: 501;
+}
+.our-pricing .container .row .col-md-6 .plan-text h2::before{
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: 0;
+    width: 50px;
+    background-color: #3e68eb;
+    height: 2px;
+}
+.our-pricing .container .row .col-md-6 .plan-text p{
+
+    width: 400px;
+    margin: auto;
+    padding: 20px 0px 60px 0px;
+}
+.our-pricing .container .row .col-md-4 .box:hover p{
+    color: white;
+}
+.our-pricing .container .row .col-md-4 .box:hover span{
+    color: white;
+}
+.our-pricing .container .row .col-md-4 .box:hover .btn1{
+    background-color: white;
+    color:black ;
+}
+.our-pricing .container .row .col-md-4 .box .btn1:hover{
+    color: white;
+}
+.our-pricing .container .row .col-md-4 .box:hover{
+    background-color: blue;
+    color: white;
+}
+.our-pricing .container .row .col-md-4 .box{
+    padding: 40px;
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    transition: .4s all ease-in-out;
+    
+}
+.our-pricing .container .row .col-md-6 .box h5{
+}
+.our-pricing .container .row .col-md-4 .box h1 {
+    font-size: 30px;
+    font-weight: 501;
+    padding: 12px 20px 40px 20px;
+
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+}
+.our-pricing .container .row .col-md-4 .box span{
+    color: #84868d;
+    display: block;
+}
+.our-pricing .container .row .col-md-4 .box p {
+    color: #bb9f91;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.our-pricing .container .row .col-md-4 .box .btn1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: blue;
+    transition: .4s all ease-in-out;
+    border-radius: 30px ;
+}
+
+.our-pricing .container .row .col-md-4 .box .btn1:hover::before {
+    width: 100%;
+}
+.our-pricing .container .row .col-md-4 .box .btn1 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 30px;
+    padding: 14px 30px;
+    font-weight: 501;
+    z-index: 1;
+    position: relative;
+    border: 1px solid blue;
+}
+
+
+
+
+
+/* Slide-overlay */
+.slide-overlay{
+    background-image: url("https://i.ibb.co/b3KkwPL/free-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.slide-overlay .container-fluid .row{}
+.slide-overlay .container-fluid .row .col-md-12{}
+.slide-overlay .container-fluid .row .col-md-12  .slid-hadding {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 200px 0px;
+    color: white;
+}
+.slide-overlay::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 255, 0.308);
+    z-index: -1;
+}
+
+.slide-overlay .container-fluid .row .col-md-12  .slid-hadding h6{}
+.slide-overlay .container-fluid .row .col-md-12 .slid-hadding h1{}
+.slide-overlay  .container-fluid .row .col-md-12 .slid-hadding p{}
+.slide-overlay .container-fluid .row .col-md-12 .slid-hadding a::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 100%;
+   background-color: blue;
+   z-index: -1;
+   color: white;
+   border-radius: 30px;
+   transition: .4s all ease-in-out;
+}
+.slide-overlay .container-fluid .row .col-md-12 .slid-hadding a:hover::before {
+    width: 100%;
+   border: 1px solid #fff;
+   color: white;
+
+}
+.slide-overlay .container-fluid .row .col-md-12 .slid-hadding a:hover{
+    color: white;
+}
+.slide-overlay .container-fluid .row .col-md-12 .slid-hadding a {
+    color: blue;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 22px;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    z-index: 1;
+}    
+
+
+/* Slide-overlay */
+
+/* .footer-top */
+.footer-top {
+    background-color: #f8f9fa;
+    padding: 100px 0px;
+}
+.footer-top .container .row{}
+.footer-top .container .col-md-8 .box2 {
+    padding: 30px;
+    background-color: blue;
+    color: white;
+}
+.footer-top .container .col-md-8 .box2 h3{}
+.footer-top .container .col-md-8 .box2 p{}
+.footer-top .container .col-md-8 .box2 input {
+    padding: 7px 32px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+.footer-top .container .col-md-8 .box2 .submit {
+    padding: 8px 21px;
+    border-radius: 30px;
+    margin-left: 25px;
+    border: 1px solid #fff;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.footer-top .container .col-md-4 .box3 {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 1px 3px 19px #c2e0e0;
+    border: 1px solid #fff;
+}
+.footer-top .container .col-md-4 .box3 h3{}
+.footer-top .container .col-md-4 .box3 .btn4 {
+    text-decoration: none;
+    padding: 11px 23px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 34px;
+} 
+/* .footer-top */
